@@ -12,7 +12,7 @@ void loop() {
   Serial.println(soundState);
   // if the sound sensor’s value is greater than 600, the light will be on for 0.1 seconds.
   //Otherwise, the light will be turned off
-  if (soundState > 600) {
+  if (soundState > 600) {//更改條件數值可改變靈敏度
     digitalWrite(ledPin, HIGH);
     delay(100);
   } else {
