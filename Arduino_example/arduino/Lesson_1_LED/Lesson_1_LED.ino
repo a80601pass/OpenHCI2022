@@ -9,7 +9,7 @@ void setup() {
 
 void loop() {
   digitalWrite(ledPin, HIGH);
-  delay();//於括號內輸入數字決定閃爍頻率，單位為毫秒
+  delay(1000);//更改括號內數字決定閃爍頻率，單位為毫秒
   digitalWrite(ledPin, LOW);
-  delay();//於括號內輸入數字決定閃爍頻率，單位為毫秒
+  delay(1000);//更改括號內數字決定閃爍頻率，單位為毫秒
 }
