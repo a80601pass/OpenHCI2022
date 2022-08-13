@@ -19,7 +19,7 @@ void loop() {
   // read the state of the pushbutton value:
   buttonState = digitalRead(buttonPin);
   // check if the pushbutton is pressed. If it is, the buttonState is HIGH:
-  if (buttonState == HIGH) {
+  if (buttonState == HIGH) {//更改HIGH或LOW決定觸發狀態
     digitalWrite(ledPin, HIGH);  // turn LED on:
   } else {
     digitalWrite(ledPin, LOW);   // turn LED off:
